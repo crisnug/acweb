@@ -248,7 +248,7 @@ body{
     color:white;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
     border-radius: 20px;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -260,6 +260,7 @@ body{
     background-color: rgba(0, 0, 0, 0.507);
     border-radius: 20px;
     margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .sub-titulo div  h4{
@@ -279,29 +280,14 @@ body{
 
 /*---------CARD--------------*/
 
-.card__img{
 
-    
-    width: 350px;
-    height:350px;
-    border-radius:9px;
-    
-    
+.card{
+    text-align: center;
+    background-color:beige;
+    margin-bottom: 20px;
 }
 
-/*----Button----*/
 
-.card__button{
-    
-    border: 1px solid;
-    border-color:white;
-    background-color: black;
-    border-radius: 10px;
-    color: white;
-    font-size: 15px;
-    
-
-}
 
 /*---------FIN-CARD*/
 
@@ -386,13 +372,16 @@ body{
 
 /*----PIE-MAIN-----*/
 .pie__main{
-    height: 150px;
+    height: auto;
     background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    font-size: 35px;
     color: white;
 }
 
+.pie__main h2{
+    margin-bottom: 15px;
+    color: black;
+    text-decoration: underline;
+}
 
 /*-----------Footer-----------*/
 
