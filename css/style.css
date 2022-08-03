@@ -375,9 +375,10 @@ body{
     height: 500px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    text-align: left;
 }
 
-.pie__main h2{
+.pie__main div h2{
     margin-bottom: 15px;
     color: black;
     text-decoration: underline;
