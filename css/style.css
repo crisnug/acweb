@@ -282,9 +282,11 @@ body{
 
 
 .card{
+    display: flex;
     text-align: center;
     background-color:beige;
     margin-bottom: 20px;
+    
 }
 
 
@@ -307,64 +309,12 @@ body{
     
 }
 
-/*-----web1------*/
-.web1{
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 450px;
-    width: 360px;
-    border: 5px solid;
-    border-color: black;
-    margin-bottom: 15px;
-    text-align: center;
-    border-radius: 15px;
-    transition: 1s;
-        
-}
-
 /*----transition---*/
 
-.web1:hover{
+.card:hover{
     transform: scale(1.05);
-}
-
-
-
-/*-----web2------*/
-.web2{
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 450px;
-    width: 360px;
-    border: 5px solid;
-    border-color: black;
-    margin-bottom: 15px;
-    text-align: center;
-    border-radius: 15px;
-    transition: 1s;
-}
-
-/*----transition---*/
-.web2:hover:hover{
-    transform: scale(1.05);
-}
-
-
-/*-----web3------*/
-
-.web3{
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 450px;
-    width: 360px;
-    border: 5px solid;
-    border-color: black;
-    margin-bottom: 15px;
-    text-align: center;
-    border-radius: 15px;
-    transition: 1s;
-}
-
-/*----transition---*/
-.web3:hover:hover{
-    transform: scale(1.05);
+    transition: 2s;
+    
 }
 
 /*----FIN-WEB-------*/
