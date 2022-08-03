@@ -69,7 +69,7 @@ body{
     display: grid;
     
     grid-template-columns: repeat(3,1fr) ;
-    grid-template-rows:200px auto auto 265px;
+    grid-template-rows:160px auto auto 265px;
     
     
 
