@@ -372,7 +372,7 @@ body{
 
 /*----PIE-MAIN-----*/
 .pie__main{
-    height: auto;
+    height: 500px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
