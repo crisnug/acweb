@@ -83,7 +83,7 @@ body{
     display: flex;
     align-items: flex-end;
     justify-content: left;
-    background-color: blue;
+    background-color: white;
     grid-area:header;
     
     
