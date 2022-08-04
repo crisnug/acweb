@@ -83,7 +83,7 @@ body{
     display: flex;
     align-items: flex-end;
     justify-content: left;
-    background-color: white;
+    background-color: blue;
     grid-area:header;
     
     
@@ -92,7 +92,7 @@ body{
 
 .navegador{
     grid-area:nav;
-    background-color: black;
+    background-color: white;
     
 
     
