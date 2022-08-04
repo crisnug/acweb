@@ -71,6 +71,7 @@ body{
     
     grid-template-columns: repeat(3,1fr) ;
     grid-template-rows:auto 1270px 265px;
+    grid-template-rows:auto auto 264px;
     
     
 
@@ -83,6 +84,7 @@ body{
     display: flex;
     align-items: flex-end;
     justify-content: left;
+    background-color: white;
     grid-area:header;
     
     
