@@ -70,7 +70,7 @@ body{
     display: grid;
     
     grid-template-columns: repeat(3,1fr) ;
-    grid-template-rows:auto auto 265px;
+    grid-template-rows:auto auto 264px;
     
     
 
@@ -92,7 +92,7 @@ body{
 
 .navegador{
     grid-area:nav;
-    background-color: black;
+    background-color: white;
     
 
     
