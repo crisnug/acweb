@@ -70,7 +70,7 @@ body{
     display: grid;
     
     grid-template-columns: repeat(3,1fr) ;
-    grid-template-rows:auto auto 265px;
+    grid-template-rows:auto 1270px 265px;
     
     
 
