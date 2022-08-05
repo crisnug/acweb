@@ -70,7 +70,7 @@ body{
     display: grid;
     
     grid-template-columns: repeat(3,1fr) ;
-    grid-template-rows:auto 1270px 265px;
+    
     grid-template-rows:auto auto 264px;
     
     
@@ -196,26 +196,9 @@ body{
 
 }
 
-.valor{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    
-    
-    
-}
 
-.valor p {
-    
-    font-size: 32px;
-    text-align: center;
-    background-color: blueviolet;
-    margin-right: 30px;
-    width: 150px;
-    height: 30px;
-    border-radius: 20px;
-}
+
+
 /*---------TITULO-----*/
 
 .index{
@@ -266,7 +249,7 @@ body{
 }
 /*-------FIN-DE-TITULOS------*/
 
-/*-------Main-Form----------*/
+/*-------Main-----------*/
 main div h3{
     text-align: center;
     color: black;
@@ -334,7 +317,7 @@ main div section{
 
 /*----PIE-MAIN-----*/
 .pie__main{
-    height: 500px;
+    height: auto;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     text-align: left;
@@ -461,9 +444,8 @@ footer div  h2 {
 }
 
 @media screen and (max-width:880px){
-    .navegador ul{
+    .navegador {
         flex-direction: column;
-        margin-right: 50px;
         align-items: center;
         
     }
@@ -474,7 +456,7 @@ footer div  h2 {
         display: grid;
         
         grid-template-columns: repeat(2,1fr) ;
-        grid-template-rows:auto auto 800px auto;
+        grid-template-rows: auto auto 1000px auto;
         
         
     
@@ -486,8 +468,21 @@ footer div  h2 {
     }
 }
 
-@media  and (max-width:) {
+@media screen and (max-width:992){
+    .grid__contenedor__index{
+        display: grid;
+        
+        grid-template-columns: repeat(2,1fr) ;
+        grid-template-rows:auto auto 1500px auto;
+        
+        
     
+        grid-template-areas: 
+        "header header "
+        "nav nav"
+        "main main "
+        "footer footer ";
+    }
 }
 
 @media screen and (max-width:500px) {
