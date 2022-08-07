@@ -214,6 +214,9 @@ body{
 
 /*-------Index------------*/
 
+.main_index{
+    height: 1150px;
+}
 
 /*---------Background------*/
 .sub-titulo{
