@@ -1,17 +1,4 @@
 
-/*-----LOGO-de-29-a-62-----*/
-/*-----HEADER-de-64--*/
-/*-----GRID-INDEX-de-66-a-112*/
-/*-----GRID-GENERICO-de-117-a-148*/
-/*-----NAVEGADOR-de-151-a-184--*/
-/*-----MAIN-de-187-a-348---*/
-/*-----TITULOS-de-191-a-231--*/
-/*-----CARD-de-234-a-260---*/
-/*-----WEB-de-263-a-338----*/
-/*-----FOOTER-de-351-a-424*/
-/*-----MEDIA-QUERYS--442*/
-
-
 /*----------BODY------------*/
 body{
     width:100%;
@@ -127,14 +114,12 @@ body{
     
 }
 
-
-
 /*--------FIN-DE NAVEGADOR---*/
 
 
 /*-----------Main------------*/
 
-/*-----------Pagina-web------*/
+/*-----------Main-Pagina-web------*/
 
 .pagina_economica{
     text-decoration: none;
@@ -242,7 +227,7 @@ main div h3{
 
 
 
-/*---------FIN-CARD*/
+
 
 /*------flex---card*/
 .webs{
@@ -259,13 +244,12 @@ main div h3{
     transition: 2s;
     
 }
-
-/*----FIN-WEB-------*/
+/*---------FIN-CARD*/
 
 
 /*----PIE-MAIN-----*/
 
-/*-----Background---*/
+/*-----Background---*/ 
 .pie__main{
     height: auto;
     background-color: rgba(0, 0, 0, 0.5 );
