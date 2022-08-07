@@ -251,7 +251,7 @@ body{
 }
 
 /*--------¿QUE PAGINA WEB NECESITAS?-----*/
-main div div h1{
+.web__necesitas{
     color:white;
     text-align: center;
     font-size: 35px;
@@ -266,10 +266,7 @@ main div div h1{
 
 /*-------Main-----------*/
 
-.marketing{
-    
 
-}
 main div h3{
     text-align: center;
     color: black;
