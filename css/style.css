@@ -14,15 +14,13 @@
 
 /*----------BODY------------*/
 body{
-    width:98%;
+    width:100%;
     height:80vh;
-    background-image:url("../img/photoBackgrounf.jpg");
+    background-color: black;
     background-size:cover;
     background-attachment: fixed;
-    color: grey;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration: none;
-    margin-left: 12px;
+    
     
     
 }
@@ -31,7 +29,6 @@ body{
 
 .div__title{
     display: flex;
-    align-items: left;
     flex-direction: column;
     
 }
@@ -40,7 +37,6 @@ body{
 .div__title  div h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgba(0, 0, 0, 0.);
-    border-radius: 25px;
     text-align: center;
     color:black;
     font-size: 80px;
@@ -66,17 +62,16 @@ body{
 /*---------Header-------------------*/
 
     /*----------INDEX---------*/
-.grid__container__index{
+/*.grid__container__index{
     display: grid;
     
     grid-template-columns: repeat(3,1fr) ;
-    
     grid-template-rows:auto auto 264px;
     
     
 
-    grid-template-areas:
-    "header nav nav" 
+    grid-template-areas: 
+    "header nav nav"
     "main main main"
     "footer footer footer";
 }
@@ -93,7 +88,7 @@ body{
 
 .navegador{
     grid-area:nav;
-    background-color: white;
+    background-color:black;
     
 
     
@@ -123,7 +118,7 @@ body{
     display: grid;
     
     grid-template-columns: repeat(3,1fr) ;
-    grid-template-rows:auto 1000px auto;
+    grid-template-rows:auto auto auto;
     
     
 
@@ -133,10 +128,29 @@ body{
     "footer footer footer";
 }
 
+.encabezado{
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    background-color: white;
+    grid-area:header;
+    
+    
+    
+}
+
+.navegador{
+    grid-area:nav;
+    background-color:black;
+    
+
+    
+}
 
 .principal__generico{
     background-color: rgba(255, 228, 196, 0.5);
     grid-area: main;
+    
     
     
 }   
@@ -162,7 +176,6 @@ body{
 .navegador{
     display: flex;
     align-items: flex-end;
-    background-color: white;
     
     
 }
@@ -199,33 +212,20 @@ body{
 
 
 
-/*---------TITULO-----*/
-
-.index{
-    background-color: white;
-}
+/*-------Index------------*/
 
 
-
+/*---------Background------*/
 .sub-titulo{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color:rgba(240, 255, 255, 0.5);
+    background-color:black;
     margin-bottom: 25px;
     
 }
 
-.sub-titulo div h1{
-    color:white;
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    font-size: 35px;
-    border-radius: 20px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
+/*--¿Por qué contratar una agencia de diseño web?--*/
 .sub-titulo div  h3 {
     text-align: center;
     color: white;
@@ -234,6 +234,8 @@ body{
     margin-bottom: 25px;
     margin-top: 25px;
 }
+
+/*-------El crecimiento digital-------*/
 
 .sub-titulo div  h4{
     font-style: italic;
@@ -247,9 +249,27 @@ body{
     border-radius: 20px;
     text-align: center;
 }
-/*-------FIN-DE-TITULOS------*/
+
+/*--------¿QUE PAGINA WEB NECESITAS?-----*/
+main div div h1{
+    color:white;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+
 
 /*-------Main-----------*/
+
+.marketing{
+    
+
+}
 main div h3{
     text-align: center;
     color: black;
@@ -257,18 +277,7 @@ main div h3{
     text-decoration: underline;
 }
 
-main div section{
-    display: flex;
-}
 
-.mb-3{
-    display: flex;
-    flex-direction: column;
-    color: black;
-    justify-content: center;
-    margin-right: 20%;
-    margin-left: 20%;
-}
 
 
 
@@ -288,15 +297,7 @@ main div section{
 
 /*---------FIN-CARD*/
 
-
-/*---------WEB-----*/
-.web__title {
-    background-color: white;
-    height: 35px;
-    width: 350px;
-    
-}
-
+/*------flex---card*/
 .webs{
     display: flex;
     justify-content: space-around;
@@ -316,13 +317,17 @@ main div section{
 
 
 /*----PIE-MAIN-----*/
+
+/*-----Background---*/
 .pie__main{
     height: auto;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5 );
     color: white;
     text-align: left;
 }
 
+
+/*¿Necesitás un sitio web? ¿Necesitás potenciar tu negocio en Google? Nosotros lo hacemos.*/
 .pie__main div h2{
     margin-bottom: 15px;
     color: black;
@@ -330,8 +335,13 @@ main div section{
 }
 
 .pie__main h3{
-    text-align: left;
+    text-align: left; 
 }
+
+
+
+/*-----Fin-Pie-Main-----------*/
+
 
 /*-----------Footer-----------*/
 
@@ -342,7 +352,7 @@ main div section{
     background-color: rgba(128, 128, 128, 0.288);
     margin-left: 15px;
     margin-right: 15px;
-    color: black;
+    color: rgb(199, 30, 30);
     border-radius: 20px;
     text-decoration: underline;
     text-align: center;
@@ -393,25 +403,14 @@ footer div  h2 {
 
 .columna-nosotros{
     display: flex;
-    
     background-color: black;
     width: auto;
 }
 
-
-/*---------------*/
-.form{
-    
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    width: 300px;
-    height: auto;
-    background-color: black;
-    
-    
+.contenedor-nosotros{
+    height: 600px;
 }
+
 
 /*----------MEDIA-QUERY----*/
 
@@ -429,7 +428,6 @@ footer div  h2 {
 
 @media screen and (max-width:400px){
     
-
     .web1{
         transform: scale(.7);
     }
@@ -455,35 +453,20 @@ footer div  h2 {
     .grid__generico{
         display: grid;
         
-        grid-template-columns: repeat(2,1fr) ;
-        grid-template-rows: auto auto 1000px auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
         
         
     
         grid-template-areas: 
-        "header header "
-        "nav nav " 
-        "main main "
-        "footer footer ";
+        "header  "
+        "nav  " 
+        "main  "
+        "footer  ";
     }
 }
 
-@media screen and (max-width:992){
-    .grid__contenedor__index{
-        display: grid;
-        
-        grid-template-columns: repeat(2,1fr) ;
-        grid-template-rows:auto auto 1500px auto;
-        
-        
-    
-        grid-template-areas: 
-        "header header "
-        "nav nav"
-        "main main "
-        "footer footer ";
-    }
-}
+
 
 @media screen and (max-width:500px) {
     
@@ -521,7 +504,7 @@ footer div  h2 {
     
 }
 
-
+/*-----------------*/
 .animate__animated.animate__bounce {
     --animate-duration: 1.5s;
     --animate-repeat: 5;
