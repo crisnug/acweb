@@ -198,7 +198,10 @@ body{
     height: 1100px;
 }
 
-
+.carousel-inner{
+    width: auto;
+    height: 300px;
+}
 /*-------Main-----------*/
 
 
@@ -444,13 +447,5 @@ footer div  h2 {
     
 }
 
-/*-----------------*/
-.animate__animated.animate__bounce {
-    --animate-duration: 1.5s;
-    --animate-repeat: 5;
-}
 
-.carousel-inner{
-    width: auto;
-    height: 300px;
-}
+
