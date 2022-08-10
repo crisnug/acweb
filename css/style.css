@@ -1,451 +1,209 @@
+body {
+  width: 100%;
+  height: 80vh;
+  background-color: black;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
-/*----------BODY------------*/
-body{
-    width:100%;
-    height:80vh;
-    background-color: black;
-    background-size:cover;
-    background-attachment: fixed;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    
-    
-}
-
-/*----------LOGO-----------*/
-
-.div__title{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-    /*-----ACWEB-----*/
-.div__title  div h1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgba(0, 0, 0, 0.);
+/*---------Marca-------*/
+.encabezado .div__title {
+  display: flex;
+  flex-direction: column; }
+  .encabezado .div__title .acweb {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
     text-align: center;
-    color:black;
+    color: black;
     font-size: 80px;
-    margin-bottom: 5px;
-    
-    
-}
-
-    /*-----Desarrollo Web--*/
-.div__title  div h3{
-    
+    margin-bottom: 5px; }
+  .encabezado .div__title .desa__web {
     border-radius: 25px;
     color: black;
     text-align: center;
     border-radius: 20px;
     text-decoration: underline;
-    font-size: 25px;
-    
-}
+    font-size: 25px; }
 
-/*---------FIN-LOGO--------------*/
+/*---------Navegador--------*/
+.navegador {
+  display: flex;
+  align-items: flex-end; }
+  .navegador .navbar-collapse {
+    display: flex;
+    justify-content: right; }
 
-/*---------Header-------------------*/
-
-.grid__generico{
-    display: grid;
-    
-    grid-template-columns: repeat(3,1fr) ;
-    grid-template-rows:auto auto auto;
-    
-    
-
-    grid-template-areas: 
-    "header nav nav"
-    "main main main"
-    "footer footer footer";
-}
-
-.encabezado{
+/*----------Grillas---------*/
+.grid__generico {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "header nav nav" "main main main" "footer footer footer"; }
+  .grid__generico .encabezado {
     display: flex;
     align-items: flex-end;
     justify-content: left;
     background-color: white;
-    grid-area:header;
-    
-    
-    
-}
-
-.navegador{
-    grid-area:nav;
-    background-color:black;
-    
-
-    
-}
-
-.principal__generico{
+    grid-area: header; }
+  .grid__generico .navegador {
+    grid-area: nav;
+    background-color: black; }
+  .grid__generico .principal__generico {
     background-color: rgba(255, 228, 196, 0.5);
-    grid-area: main;
-    
-    
-    
-}   
-
-
-.pie__generico{
+    grid-area: main; }
+  .grid__generico .pie__generico {
     background-color: rgba(245, 245, 220, 0.507);
-    grid-area: footer;
-}
+    grid-area: footer; }
 
-/*-------FIN-DE-GRID------*/
-
-
-/*-------Navegador-------*/
-
-
-
-.navbar-collapse{
-    display: flex;
-    justify-content: right;
-    
-}
-.navegador{
-    display: flex;
-    align-items: flex-end;
-    
-    
-}
-
-/*--------FIN-DE NAVEGADOR---*/
-
-
-/*-----------Main------------*/
-
-/*-----------Main-Pagina-web------*/
-
-.pagina_economica{
-    text-decoration: none;
-    height: 1100px;
-}
-
-.pagina_economica section div div p {
-    color: black;
-    font-size: 20px;
-    text-align: left;
-
-}
-
-.pagina_economica section div div h3{
-    font-size: 25px;
-    text-align: left;
-
-}
-
-
-
-
-/*-------Main--Index------------*/
-
-
-
-/*---------Background------*/
-.sub-titulo{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color:black;
-    margin-bottom: 25px;
-    
-}
-
-/*--¿Por qué contratar una agencia de diseño web?--*/
-.sub-titulo div  h3 {
+/*-------Main-Index--------*/
+.sub-titulo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  margin-bottom: 25px; }
+  .sub-titulo .sub__titulo_h3 {
     text-align: center;
     color: white;
     background-color: rgba(0, 0, 0, 0.507);
     border-radius: 20px;
     margin-bottom: 25px;
-    margin-top: 25px;
-}
-
-/*-------El crecimiento digital-------*/
-
-.sub-titulo div  h4{
+    margin-top: 25px; }
+  .sub-titulo .sub__titulo_h4 {
     font-style: italic;
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: white;
     background-color: rgba(0, 0, 0, 0.5);
     height: auto;
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 20px;
     border-radius: 20px;
-    text-align: center;
-}
+    text-align: center; }
 
-/*--------¿QUE PAGINA WEB NECESITAS?-----*/
-.web__necesitas{
-    color:white;
-    text-align: center;
-    font-size: 35px;
-    border-radius: 20px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
+.web__necesitas {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px; }
 
-
-/*-------------Marketing-Main----*/
-
-.marketing{
-    height: 1100px;
-}
-
-.carousel-inner{
-    width: auto;
-    height: 300px;
-}
-/*-------Main-----------*/
-
-
-main div h3{
-    text-align: center;
-    color: black;
-    margin-top: 25px;
-    text-decoration: underline;
-}
-
-
-
-
-
-/*---------CARD--------------*/
-
-
-.card{
+/*-----Card-Index----------*/
+.webs {
+  display: flex;
+  justify-content: space-around; }
+  .webs .card {
     display: flex;
     text-align: center;
-    background-color:beige;
+    background-color: beige;
     margin-bottom: 20px;
-    border-radius: 30px 30px 0 0;
-    
-}
+    border-radius: 30px 30px 0 0; }
+    .webs .card:hover {
+      transform: scale(1.05);
+      transition: 2s; }
 
-
-
-
-
-/*------flex---card*/
-.webs{
-    display: flex;
-    justify-content: space-around;
-    
-    
-}
-
-/*----transition---*/
-
-.card:hover{
-    transform: scale(1.05);
-    transition: 2s;
-    
-}
-/*---------FIN-CARD*/
-
-
-/*----PIE-MAIN-----*/
-
-/*-----Background---*/ 
-.pie__main{
-    height: auto;
-    background-color: rgba(0, 0, 0, 0.5 );
-    color: white;
-    text-align: left;
-    width: auto;
-}
-
-
-/*¿Necesitás un sitio web? ¿Necesitás potenciar tu negocio en Google? Nosotros lo hacemos.*/
-.pie__main div h2{
+/*----------Pie-Main----------*/
+.pie__main {
+  height: auto;
+  background-color: black;
+  color: white;
+  text-align: left;
+  width: auto; }
+  .pie__main .pie__main div h2 {
     margin-bottom: 15px;
     color: white;
-    text-decoration: underline;
-}
+    text-decoration: underline; }
+  .pie__main .pie__main h3 {
+    text-align: left; }
 
-.pie__main h3{
-    text-align: left; 
-}
-
-/*-------Main-Nosotros----*/
-
-
-.columna-nosotros{
-    display: flex;
-    background-color: black;
-    width: auto;
-}
-
-.contenedor-nosotros{
-    height: 800px;
-}
-
-
-/*------Main--contacto--------*/
-
-.formulario{
-    height: 800px;
-}
-
-
-/*-----------Footer-----------*/
-
-
-.contacto{
-    
-    border:1px solid;
-    background-color: white;
-    margin-left: 15px;
-    margin-right: 15px;
-    color: rgb(0, 0, 0);
-    border-radius: 20px;
-    text-decoration: underline;
-    text-align: center;
-    padding: 3%;/*--*/
-    height: auto;
-}
-
-
-footer div  h2 {
-    text-align: center;
+/*-----------Main-Pagina-web------*/
+.pagina_economica {
+  text-decoration: none;
+  height: 1100px; }
+  .pagina_economica .plan__economico p {
     color: white;
-    background-color: rgba(0, 0, 0, 0.527);
-    border-radius: 20px;
-}
+    font-size: 20px;
+    text-align: left; }
+  .pagina_economica .plan__economico h3 {
+    font-size: 25px;
+    text-align: left; }
 
-        /*--------img redes-------*/
+/*------Main-Marketing------*/
+.marketing {
+  height: 1100px; }
+  .marketing .carousel-inner {
+    width: auto;
+    height: 300px; }
 
-.redesSociales{
-    display: flex;
-    justify-content: space-around;
-    background-color:rgba(0, 0, 0, 0.534);
-    text-align: center;
-    border-radius: 20px;
+/*----------Main-Nosotros--*/
+.contenedor-nosotros {
+  height: 800px; }
 
-    
-}
+.columna-nosotros {
+  display: flex;
+  background-color: black;
+  width: auto; }
 
-.redes__img {
-    
+/*------Main-Contacto----*/
+.formulario {
+  height: 800px; }
+
+/*----Footer-----*/
+.contacto {
+  border: 1px solid;
+  background-color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: black;
+  border-radius: 20px;
+  text-decoration: underline;
+  text-align: center;
+  padding: 3%;
+  /*--*/
+  height: auto; }
+
+.seguinos {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.527);
+  border-radius: 20px; }
+
+/*--------img redes-------*/
+.redesSociales {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.534);
+  text-align: center;
+  border-radius: 20px; }
+  .redesSociales .redes__img {
     width: 50px;
     height: 50px;
-    margin-top: 4px;    
-    
-    
+    margin-top: 4px; }
 
-}
+/*------Media-Query------*/
+/*--------Responsive----*/
+@media screen and (max-width: 1100px) {
+  .webs {
+    flex-direction: column;
+    align-items: center; } }
 
-/*-----Nosotros-----*/
+@media screen and (max-width: 400px) {
+  .web1 {
+    transform: scale(0.7); }
+  .web2 {
+    transform: scale(0.7); }
+  .web3 {
+    transform: scale(0.7); } }
 
+@media screen and (max-width: 880px) {
+  .navegador {
+    flex-direction: column;
+    align-items: center; } }
 
-.container-fluid p{
-    text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: black;
-    font-size: 25px;
-    
-
-}
-
-
-/*----------MEDIA-QUERY----*/
-
-/*-----responsive---*/
-
-@media screen and (max-width:1100px){
-    .webs{ 
-        flex-direction: column;
-        align-items: center;
-        
-        
-        }
-    }
-
-
-@media screen and (max-width:400px){
-    
-    .web1{
-        transform: scale(.7);
-    }
-
-    .web2{
-        transform: scale(.7);
-    }
-    .web3{
-        transform: scale(.7);
-    }
-
-}
-
-@media screen and (max-width:880px){
-    .navegador {
-        flex-direction: column;
-        align-items: center;
-        
-    }
-}
-
-@media screen and (max-width:992px){
-    .grid__generico{
-        display: grid;
-        
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: auto auto auto auto;
-        
-        
-    
-        grid-template-areas: 
-        "header header"
-        "nav nav" 
-        "main main"
-        "footer footer";
-    }
-    
-}
-
-
-
-@media screen and (max-width:500px) {
-    
-
-    .div__title div h1 {
-        transform: scale(.8);
-        
-    }
-
-    .div__title div h3{
-        transform: scale(.7);
-        flex-direction: column;
-        
-    }
-    .sub-titulo div h1{
-        font-size: auto;
-    }
-}
-@media screen and (max-width:350) {
-    .div__title section h1 {
-        transform: scale(.4);
-        
-    }
-    
-}
-
-@media screen and (max-width:995px) {
-    .columna-nosotros {
-        flex-direction: column;
-        margin-bottom: 50px;
-        align-items: center;
-        background-color: black;
-        
-    }
-    
-}
-
-
-
+@media screen and (max-width: 992px) {
+  .grid__generico {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "header header" "nav nav" "main main" "footer footer"; } }
