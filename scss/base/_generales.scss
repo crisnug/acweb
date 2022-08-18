@@ -8,24 +8,27 @@
         display: flex;
         align-items: flex-end;
         justify-content: left;
-        background-color: white;
+        background-color: map-get($background, bg-encabeza );/**/
         grid-area:header;
     }
     .navegador{
         grid-area:nav;
-        background-color:black;
+        background-color: map-get($background, bg-nav);
     }
     .principal__generico{
-        background-color: rgba(255, 228, 196, 0.5);
+        background-color: map-get($background, bg-main);
         grid-area:main;
     }   
     .pie__generico{
-        background-color: rgba(245, 245, 220, 0.507);
+        background-color: map-get($background,bg-footer );
         grid-area: footer;
     }
 }
 
+/*------Variables--------*/
+
 /*------Media-Query------*/
+
 
 /*--------Responsive----*/
 @media screen and (max-width:1100px){

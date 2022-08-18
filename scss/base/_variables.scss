@@ -1,0 +1,19 @@
+/*Listas*/
+$font-size: 12px,
+    24px,
+    30px,
+    35px;
+
+/*Fuentes*/
+$color-fuentes: white;
+
+$color-principal: black;
+$color-fuentes: black;
+$color-fuentes-2: white;
+
+/*---Extend---*/
+%flex{
+    display: flex;
+    flex-direction: column;
+}
+
