@@ -351,11 +351,3 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto auto auto;
     grid-template-areas: "header header" "nav nav" "main main" "footer footer"; } }
-
-/*-----Paleta-de colores---*/
-/*Listas*/
-/*Fuentes*/
-/*---Extend---*/
-.encabezado .div__title, .sub-titulo {
-  display: flex;
-  flex-direction: column; }
