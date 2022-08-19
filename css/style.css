@@ -53,6 +53,11 @@
     flex-direction: column;
     align-items: center; } }
 
+@media screen and (max-width: 1035px) {
+  .servicios__ad {
+    flex-direction: column;
+    justify-content: center; } }
+
 @media screen and (max-width: 992px) {
   .grid__generico {
     display: grid;
@@ -139,6 +144,11 @@ body {
     flex-direction: column;
     align-items: center; } }
 
+@media screen and (max-width: 1035px) {
+  .servicios__ad {
+    flex-direction: column;
+    justify-content: center; } }
+
 @media screen and (max-width: 992px) {
   .grid__generico {
     display: grid;
@@ -214,18 +224,30 @@ body {
     margin-left: 5px; }
 
 /*---------------------------------*/
-/*-----------Main-Pagina-web------*/
-.pagina_economica {
-  text-decoration: none;
-  height: 1100px; }
-  .pagina_economica .diseño__web {
+/*-----------Main-Planes------*/
+.informacion {
+  display: flex;
+  justify-content: space-around; }
+  .informacion div {
+    width: 150px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 100px;
+    margin-bottom: 50px; }
+
+.paginas__planes {
+  text-decoration: none; }
+  .paginas__planes .diseño__web {
     text-align: center;
     margin-bottom: 20px; }
-  .pagina_economica img {
+  .paginas__planes img {
     width: 30px; }
-  .pagina_economica .planes section {
+  .paginas__planes .planes section {
     display: flex; }
-    .pagina_economica .planes section .planes section div h3 {
+    .paginas__planes .planes section .planes section div h3 {
       font-size: 30px;
       text-align: left; }
 
@@ -233,6 +255,57 @@ body {
   display: flex;
   text-align: center;
   margin-bottom: 20px; }
+
+/*-------Seo---Mk-----*/
+.pie__main_premium {
+  height: auto; }
+  .pie__main_premium section p {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px; }
+  .pie__main_premium section h4 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 50px; }
+  .pie__main_premium .servicios__ad {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; }
+    .pie__main_premium .servicios__ad .motor__busqueda {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 25%; }
+      .pie__main_premium .servicios__ad .motor__busqueda div {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .pie__main_premium .servicios__ad .motor__busqueda div img {
+          width: 150px; }
+  .pie__main_premium .google__n {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+    margin-right: 40px;
+    margin-left: 40px; }
+    .pie__main_premium .google__n div {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .pie__main_premium .google__n div img {
+        width: 150px; }
+  .pie__main_premium .whatsapp-serv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%; }
+    .pie__main_premium .whatsapp-serv div {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .pie__main_premium .whatsapp-serv div img {
+        width: 150px; }
 
 /*---------------------------------*/
 /*------Main-Marketing------*/
@@ -319,6 +392,11 @@ body {
   .navegador {
     flex-direction: column;
     align-items: center; } }
+
+@media screen and (max-width: 1035px) {
+  .servicios__ad {
+    flex-direction: column;
+    justify-content: center; } }
 
 @media screen and (max-width: 992px) {
   .grid__generico {

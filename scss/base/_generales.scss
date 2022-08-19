@@ -58,6 +58,17 @@
         align-items: center;        
     }
 }
+
+
+@media screen and (max-width:1035px){
+            .servicios__ad{
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+}
+
+
 @media screen and (max-width:992px){
     .grid__generico{
         display: grid;
