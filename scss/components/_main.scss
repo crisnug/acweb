@@ -61,32 +61,47 @@
     color: white;
     text-align: left;
     width: auto;
-    .pie__main div h5{
-        margin-bottom: 15px;
-        color: white;
-        text-decoration: underline;
-    }
-    .pie__main h5{
+    .preguntas__frecuentes h5{
+        margin-bottom: 20px;
+        color: black;
         text-align: left; 
+        margin-left: 5px;
     }
     
 }
 /*---------------------------------*/
 /*-----------Main-Pagina-web------*/
 .pagina_economica{
+    
     text-decoration: none;
     height: 1100px;
-    .plan__economico p {
-        color: black;
-        font-size: 20px;
-        text-align: left;
+    .diseño__web{
+        text-align: center;
+        margin-bottom: 20px;
+        
+        
     }
-    .plan__economico h3{
-        font-size: 25px;
-        text-align: left;
+    img{
+        width: 30px;
+    }
+    .planes section {
+        display: flex;   
+            .planes section div h3{
+                font-size: 30px;
+                text-align: left;    
+            }
+    }     
+    }
     
+    
+    .diseño__premium {
+        display: flex;
+        text-align: center;
+        margin-bottom: 20px;
+        
+
     }
-}
+
 /*---------------------------------*/
 /*------Main-Marketing------*/
 .marketing{
