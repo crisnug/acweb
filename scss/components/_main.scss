@@ -36,12 +36,12 @@
 }
 .pagina__web__contenedor{
     display: flex;
-    height: 400px;
-    justify-content: space-around;
+    height: auto;
+    
     background-color: white;
     
     .pagina__web__history{
-        width: 40%;
+        width: 1fr;
         
         div {
             p{font-size: 30px;
@@ -62,11 +62,11 @@
     }
 
     .pagina__web__definition{
-        width: 50%;
+        width: 1fr;
         display: flex;
         
         div {
-            width:300px;
+            width:auto;
             p{
                 font-size: 15px;
                 margin-right: 20px;
