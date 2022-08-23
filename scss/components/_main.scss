@@ -9,120 +9,67 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 450px;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
-        .text__1 {
-            color: white;
-            width: 50%;
-            font-style: italic ;
-            font-size: 30px;
-            font-weight:900;
-            margin-left: 15px;
-            margin-bottom: 25px;
-            
+    .text__1 {
+        color: white;
+        width: 50%;
+        font-style: italic;
+        font-size: 30px;
+        font-weight: 900;
+        margin-left: 15px;
+        margin-bottom: 25px;
     }
-
-        .text__2 {
-            width: 50%;
-            color: white;
-            font-weight:600;
-            font-size: 20px;
-            margin-left: 15px;
-            
-            
+    .text__2 {
+        width: 50%;
+        color: white;
+        font-weight: 600;
+        font-size: 20px;
+        margin-left: 15px;
     }
 }
-.pagina__web__contenedor{
+.pagina__web__contenedor {
     display: flex;
     height: auto;
-    
     background-color: white;
-    
-    .pagina__web__history{
+    .pagina__web__history {
         width: 1fr;
-        
         div {
-            p{font-size: 25px;
-                
-
-            }
-            
-            h3{
+            p {
                 font-size: 25px;
-                
-                
             }
-
-            h4{
+            h3 {
                 font-size: 25px;
-
+            }
+            h4 {
+                font-size: 25px;
             }
         }
-
     }
 
-    .pagina__web__definition{
+    .pagina__web__definition {
         width: 1fr;
         display: flex;
-        
         div {
-            width:auto;
-            p{
+            width: auto;
+            p {
                 font-size: 15px;
                 margin-right: 20px;
             }
-            
-            
-            div{
+            div {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
-                
-            
-            img{
-                width: 25px;
-                height: 25px;
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
             }
-        }
         }
 
     }
 }
-
-    
-
-/*.sub-titulo {
-    @extend %flex;
-    align-items: center;
-    margin-bottom: 25px;
-    height: 500px;
-
-
-
-    /*.sub__titulo_h3 {
-        text-align: center;
-        color:$color-fuentes-2;
-        background-color: rgba(0, 0, 0, 0.507);
-        border-radius: 20px;
-        margin-bottom: 25px;
-        margin-top: 25px;
-    }
-    .sub__titulo_h4{
-        font-style: italic;
-        font-size: 20px;
-        color: $color-fuentes-2;
-        background-color: rgba(0, 0, 0, 0.5);
-        height: auto;
-        margin-right: 15px;
-        margin-left: 15px;
-        margin-bottom: 20px;
-        border-radius: 20px;
-        text-align: center;
-    }*/
-
-
 .web__necesitas {
     color: $color-fuentes;
     text-align: center;
@@ -153,29 +100,24 @@
     }
 }
 
-/*----------Pie-Main----------*/
+/*----------Pie-Main-Index---------*/
 .pie__main {
     height: auto;
     background-color: map-get($background, bg-pie-main);
     color: white;
     text-align: left;
     width: auto;
-
     .preguntas__frecuentes h5 {
         margin-bottom: 20px;
         color: black;
         text-align: left;
         margin-left: 5px;
     }
-
 }
-
-/*---------------------------------*/
 /*-----------Main-Planes------*/
 .informacion {
     display: flex;
     justify-content: space-around;
-
     div {
         width: 150px;
         height: 70px;
@@ -186,135 +128,109 @@
         margin-top: 100px;
         margin-bottom: 50px;
     }
-
 }
-
 .paginas__planes {
-    .plan__2 {}
-
     text-decoration: none;
-
     .diseño__web {
         text-align: center;
         margin-bottom: 20px;
-
-
     }
-
     img {
         width: 30px;
     }
-
     .planes section {
         display: flex;
-
         .planes section div h3 {
             font-size: 30px;
             text-align: left;
         }
     }
 }
-
-.diseño__premium {
-    display: flex;
-    text-align: center;
-    margin-bottom: 20px;
-
-
-}
-
-/*-------Seo---Mk-----*/
+/*------Servicios-Extras----*/
 .pie__main_premium {
-    height: auto;
-
-
+    height: auto;    
     section {
+        width: 100%;
         p {
             text-align: center;
-            font-size: 30px;
-            margin-top: 40px;
-        }
-
+            text-decoration: underline;
+            font-weight: bold;
+            font-size: 20px;
+            
+            }
         h4 {
             text-align: center;
             text-decoration: underline;
-            margin-top: 50px;
+            
         }
     }
-
     .servicios__ad {
         display: flex;
-        justify-content: center;
-        margin-top: 50px;
-
+        flex-direction: row;
+        
+        
         .servicio__ad__card {
-            display: flex;
-            flex-direction: row;
-            text-align: center;
-            width: 80%;
-
+            width: 33.3%;            
             div {
                 display: flex;
                 flex-direction: column;
-                align-items: center;
-
+                align-items: center;                
+                width: 100%;} 
+                h5{
+                    width: 80%;
+                    text-align: center;
+                }
+                p {                  
+                    width: 50%;
+                }
                 img {
+                    align-items: center;
                     width: 100px;
                 }
             }
         }
-
     }
-
-    
-
-}
-
-
 
 
 /*---------Abono-Mensual-------*/
 .abono {
     height: auto;
-
-
     section {
+        width: 100%;
         p {
             text-align: center;
-            font-size: 30px;
-            
+            text-decoration: underline;
+            font-weight: bold;
+            font-size: 20px;
         }
     }
-
     .abono__mensual {
         display: flex;
         justify-content: center;
-        
         .abono__mensual__card {
             display: flex;
             flex-direction: row;
-            text-align: center;
-            width: 25%;
-
+            width: 80%;
             div {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-
+                width: 100%;
+                p{  text-align: center;
+                    width: 50%;
+                }
                 img {
-                    width: 101px;
+                    width: 100px;
                 }
             }
         }
     }
 }
 
-
 /*---------------------------------*/
 /*------Main-Marketing------*/
 .marketing {
     height: 1100px;
-
     .carousel-inner {
         width: auto;
         height: 300px;
