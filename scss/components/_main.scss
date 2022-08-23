@@ -1,14 +1,105 @@
 @import "../base/maps";
 @import "../base/generales";
 @import "../base/variables";
+
 /*-------Main-Index--------*/
-.sub-titulo{
+.hero {
+    background-image: url("../img/herosection2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        .text__1 {
+            color: white;
+            width: 50%;
+            font-style: italic ;
+            font-size: 30px;
+            font-weight:900;
+            margin-left: 15px;
+            margin-bottom: 25px;
+            
+    }
+
+        .text__2 {
+            width: 50%;
+            color: white;
+            font-weight:600;
+            font-size: 20px;
+            margin-left: 15px;
+            
+            
+    }
+}
+.pagina__web__contenedor{
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+    background-color: white;
+    
+    .pagina__web__history{
+        width: 40%;
+        
+        div {
+            p{font-size: 30px;
+                
+
+            }
+            
+            h3{
+                
+                
+            }
+
+            h4{
+
+            }
+        }
+
+    }
+
+    .pagina__web__definition{
+        width: 50%;
+        display: flex;
+        
+        div {
+            width:300px;
+            p{
+                font-size: 15px;
+                margin-right: 20px;
+            }
+            
+            
+            div{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                
+            
+            img{
+                width: 25px;
+                height: 25px;
+            }
+        }
+        }
+
+    }
+}
+
+    
+
+/*.sub-titulo {
     @extend %flex;
-    align-items: center;    
+    align-items: center;
     margin-bottom: 25px;
-    height: 250px;
-    background-color:grey;
-    .sub__titulo_h3 {
+    height: 500px;
+
+
+
+    /*.sub__titulo_h3 {
         text-align: center;
         color:$color-fuentes-2;
         background-color: rgba(0, 0, 0, 0.507);
@@ -27,55 +118,63 @@
         margin-bottom: 20px;
         border-radius: 20px;
         text-align: center;
-    }
+    }*/
+
+
+.web__necesitas {
+    color: $color-fuentes;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
-.web__necesitas{
-        color:$color-fuentes;
-        text-align: center;
-        font-size: 35px;
-        border-radius: 20px;
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
+
 /*-----Card-Index----------*/
-.webs{
+.webs {
     display: flex;
     justify-content: space-around;
-    .card{
+
+    .card {
         display: flex;
         text-align: center;
-        background-color:map-get($background,bg-card);
+        background-color: map-get($background, bg-card);
         margin-bottom: 20px;
         border-radius: 30px 30px 0 0;
         box-shadow: 15px 15px 30px rgb(25, 25, 25),
             -15px -15px 30px rgb(60, 60, 60);
-        &:hover{
+
+        &:hover {
             transform: scale(1.05);
             transition: 2s;
-        }        
-    }    
+        }
+    }
 }
+
 /*----------Pie-Main----------*/
-.pie__main{
+.pie__main {
     height: auto;
-    background-color:map-get($background,bg-pie-main );
+    background-color: map-get($background, bg-pie-main);
     color: white;
     text-align: left;
     width: auto;
-    .preguntas__frecuentes h5{
+
+    .preguntas__frecuentes h5 {
         margin-bottom: 20px;
         color: black;
-        text-align: left; 
+        text-align: left;
         margin-left: 5px;
     }
-    
+
 }
+
 /*---------------------------------*/
 /*-----------Main-Planes------*/
-.informacion{
+.informacion {
     display: flex;
     justify-content: space-around;
-    div{
+
+    div {
         width: 150px;
         height: 70px;
         background-color: black;
@@ -85,148 +184,158 @@
         margin-top: 100px;
         margin-bottom: 50px;
     }
-    
-    }
 
-.paginas__planes{ 
-    .plan__2{
-        
-    }   
-    
+}
+
+.paginas__planes {
+    .plan__2 {}
+
     text-decoration: none;
-    .diseño__web{
+
+    .diseño__web {
         text-align: center;
         margin-bottom: 20px;
-        
-        
+
+
     }
-    img{
+
+    img {
         width: 30px;
     }
-    .planes section {
-        display: flex;   
-            .planes section div h3{
-                font-size: 30px;
-                text-align: left;    
-            }
-    }     
-    }  
-    .diseño__premium {
-        display: flex;
-        text-align: center;
-        margin-bottom: 20px;
-        
 
+    .planes section {
+        display: flex;
+
+        .planes section div h3 {
+            font-size: 30px;
+            text-align: left;
+        }
+    }
+}
+
+.diseño__premium {
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+
+
+}
+
+/*-------Seo---Mk-----*/
+.pie__main_premium {
+    height: auto;
+
+
+    section {
+        p {
+            text-align: center;
+            font-size: 30px;
+            margin-top: 40px;
+        }
+
+        h4 {
+            text-align: center;
+            text-decoration: underline;
+            margin-top: 50px;
+        }
     }
 
-    /*-------Seo---Mk-----*/
-    .pie__main_premium{
-        height: auto;
-        
-        
-        section{
-            p{
-                text-align: center;
-                font-size: 30px;
-                margin-top: 40px;
-            }
-            h4{
-            text-align: center;
-            text-decoration: underline; 
-            margin-top: 50px;     
-            }
-        }
-        .servicios__ad{
-            display: flex;
-            justify-content: center;
-            margin-top: 50px;
-            
-            .servicio__ad__card{
-                display: flex;
-                flex-direction: column;  
-                text-align: center;
-                width: 25%;
-                div{
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                        img{
-                        width: 150px;                
-                    } 
-                    }
-                }       
-
-        }
-
-        .tienda__onlline{
-
-        }
-
-        }
-
-        .tienda__onlline{
-
-        }
-        
-
-    /*---------Abono-Mensual-------*/
-    .abono{
-        height: auto;
-        
-        
-        section{
-            p{
-                text-align: center;
-                font-size: 30px;
-                margin-top: 40px;
-            }        
-        }
-    .abono__mensual{
+    .servicios__ad {
         display: flex;
         justify-content: center;
         margin-top: 50px;
-        
-        .abono__mensual__card{
+
+        .servicio__ad__card {
             display: flex;
-            flex-direction: row;  
+            flex-direction: column;
             text-align: center;
             width: 25%;
-            div{
+
+            div {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                    img{
-                    width: 101px;                
-                } 
+
+                img {
+                    width: 150px;
                 }
-            }       
+            }
+        }
+
+    }
+
+    .tienda__onlline {}
+
+}
+
+.tienda__onlline {}
+
+
+/*---------Abono-Mensual-------*/
+.abono {
+    height: auto;
+
+
+    section {
+        p {
+            text-align: center;
+            font-size: 30px;
+            margin-top: 40px;
         }
     }
+
+    .abono__mensual {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+
+        .abono__mensual__card {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            width: 25%;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    width: 101px;
+                }
+            }
+        }
+    }
+}
 
 
 /*---------------------------------*/
 /*------Main-Marketing------*/
-.marketing{
+.marketing {
     height: 1100px;
-    .carousel-inner{
+
+    .carousel-inner {
         width: auto;
         height: 300px;
     }
 }
+
 /*---------------------------------*/
 /*----------Main-Nosotros--*/
-.contenedor-nosotros{
+.contenedor-nosotros {
     height: 800px;
-    
+
 }
-.columna-nosotros{
+
+.columna-nosotros {
     display: flex;
     background-color: black;
     width: auto;
 }
+
 /*---------------------------------*/
 /*------Main-Contacto----*/
 
-.formulario{
+.formulario {
     height: 800px;
 }

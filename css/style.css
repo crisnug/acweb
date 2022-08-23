@@ -3,7 +3,7 @@
 /*Listas*/
 /*Fuentes*/
 /*---Extend---*/
-.encabezado .div__title, .sub-titulo {
+.encabezado .div__title {
   display: flex;
   flex-direction: column; }
 
@@ -68,9 +68,6 @@
 body {
   width: 100%;
   height: 80vh;
-  background-image: url("/img/background-wall.jpg");
-  background-size: cover;
-  background-attachment: fixed;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
 .encabezado .div__title .acweb {
@@ -159,35 +156,88 @@ body {
 /*Listas*/
 /*Fuentes*/
 /*---Extend---*/
-.encabezado .div__title, .sub-titulo {
+.encabezado .div__title {
   display: flex;
   flex-direction: column; }
 
 /*-------Main-Index--------*/
-.sub-titulo {
-  align-items: center;
-  margin-bottom: 25px;
-  height: 250px;
-  background-color: grey; }
-  .sub-titulo .sub__titulo_h3 {
-    text-align: center;
+.hero {
+  background-image: url("../img/herosection2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .hero .text__1 {
     color: white;
-    background-color: rgba(0, 0, 0, 0.507);
-    border-radius: 20px;
-    margin-bottom: 25px;
-    margin-top: 25px; }
-  .sub-titulo .sub__titulo_h4 {
+    width: 50%;
     font-style: italic;
-    font-size: 20px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    height: auto;
-    margin-right: 15px;
+    font-size: 30px;
+    font-weight: 900;
     margin-left: 15px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    text-align: center; }
+    margin-bottom: 25px; }
+  .hero .text__2 {
+    width: 50%;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 15px; }
 
+.pagina__web__contenedor {
+  display: flex;
+  height: 400px;
+  justify-content: space-around;
+  background-color: white; }
+  .pagina__web__contenedor .pagina__web__history {
+    width: 40%; }
+    .pagina__web__contenedor .pagina__web__history div p {
+      font-size: 30px; }
+  .pagina__web__contenedor .pagina__web__definition {
+    width: 50%;
+    display: flex; }
+    .pagina__web__contenedor .pagina__web__definition div {
+      width: 300px; }
+      .pagina__web__contenedor .pagina__web__definition div p {
+        font-size: 15px;
+        margin-right: 20px; }
+      .pagina__web__contenedor .pagina__web__definition div div {
+        display: flex;
+        flex-direction: row;
+        align-items: center; }
+        .pagina__web__contenedor .pagina__web__definition div div img {
+          width: 25px;
+          height: 25px; }
+
+/*.sub-titulo {
+    @extend %flex;
+    align-items: center;
+    margin-bottom: 25px;
+    height: 500px;
+
+
+
+    /*.sub__titulo_h3 {
+        text-align: center;
+        color:$color-fuentes-2;
+        background-color: rgba(0, 0, 0, 0.507);
+        border-radius: 20px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .sub__titulo_h4{
+        font-style: italic;
+        font-size: 20px;
+        color: $color-fuentes-2;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: auto;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        text-align: center;
+    }*/
 .web__necesitas {
   color: black;
   text-align: center;
