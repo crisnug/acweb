@@ -40,17 +40,51 @@
 
 
 /*--------Responsive----*/
+@media screen and (max-width:800px) {
+    .servicio__ad__card{
+        div{
+            img{
+                width: 80px;
+            }
+        }
+        
+}
+@media screen and (max-width:800px) {
+    .abono{
+        height: auto;
+        
+        .abono__mensual{
+            flex-direction: column;
+            .abono__mensual__card{
+            
+            
+            width: 100%;}
+            div {                
+
+                img {
+                    width: 80px;
+                }
+        }
+        
+            }
+        }
+    }
+}
+
 @media screen and (max-width:500px) {
     .hero {
         height: auto;
         .text__1{
             h2{
-            font-size: 15px;
+            font-size: 11px;
+            
+            
         }
         }
         .text__2 {
             p {
                 font-size: 10px;
+                
                 
             }
         }
@@ -97,6 +131,10 @@
 
 
             }
+        .pagina__web__definition{
+            margin-top: 25px;
+
+        }
         }
     }
 }

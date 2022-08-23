@@ -44,17 +44,19 @@
         width: 1fr;
         
         div {
-            p{font-size: 30px;
+            p{font-size: 25px;
                 
 
             }
             
             h3{
+                font-size: 25px;
                 
                 
             }
 
             h4{
+                font-size: 25px;
 
             }
         }
@@ -247,9 +249,9 @@
 
         .servicio__ad__card {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             text-align: center;
-            width: 25%;
+            width: 80%;
 
             div {
                 display: flex;
@@ -257,18 +259,18 @@
                 align-items: center;
 
                 img {
-                    width: 150px;
+                    width: 100px;
                 }
             }
         }
 
     }
 
-    .tienda__onlline {}
+    
 
 }
 
-.tienda__onlline {}
+
 
 
 /*---------Abono-Mensual-------*/
@@ -280,15 +282,14 @@
         p {
             text-align: center;
             font-size: 30px;
-            margin-top: 40px;
+            
         }
     }
 
     .abono__mensual {
         display: flex;
         justify-content: center;
-        margin-top: 50px;
-
+        
         .abono__mensual__card {
             display: flex;
             flex-direction: row;
