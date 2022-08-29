@@ -45,7 +45,7 @@
       align-items: center;
       width: 100px; } }
 
-@media screen and (max-width: 750px) and (max-width: 750px) {
+@media screen and (max-width: 750px) and (max-width: 900px) {
   .pagina__web__contenedor {
     background-color: white; }
     .pagina__web__contenedor .pagina__web__definition {
@@ -68,7 +68,7 @@
           align-items: center;
           font-weight: 600; } }
 
-@media screen and (max-width: 750px) and (max-width: 750px) and (max-width: 800px) {
+@media screen and (max-width: 750px) and (max-width: 900px) and (max-width: 800px) {
   .abono {
     height: auto; }
     .abono .abono__mensual {
@@ -209,7 +209,7 @@ body {
       align-items: center;
       width: 100px; } }
 
-@media screen and (max-width: 750px) and (max-width: 750px) {
+@media screen and (max-width: 750px) and (max-width: 900px) {
   .pagina__web__contenedor {
     background-color: white; }
     .pagina__web__contenedor .pagina__web__definition {
@@ -232,7 +232,7 @@ body {
           align-items: center;
           font-weight: 600; } }
 
-@media screen and (max-width: 750px) and (max-width: 750px) and (max-width: 800px) {
+@media screen and (max-width: 750px) and (max-width: 900px) and (max-width: 800px) {
   .abono {
     height: auto; }
     .abono .abono__mensual {
@@ -563,7 +563,7 @@ body {
       align-items: center;
       width: 100px; } }
 
-@media screen and (max-width: 750px) and (max-width: 750px) {
+@media screen and (max-width: 750px) and (max-width: 900px) {
   .pagina__web__contenedor {
     background-color: white; }
     .pagina__web__contenedor .pagina__web__definition {
@@ -586,7 +586,7 @@ body {
           align-items: center;
           font-weight: 600; } }
 
-@media screen and (max-width: 750px) and (max-width: 750px) and (max-width: 800px) {
+@media screen and (max-width: 750px) and (max-width: 900px) and (max-width: 800px) {
   .abono {
     height: auto; }
     .abono .abono__mensual {
