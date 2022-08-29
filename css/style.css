@@ -39,20 +39,36 @@
   .pie__main_premium .servicios__ad {
     display: flex;
     flex-direction: column; }
-    .pie__main_premium .servicios__ad .servicio__ad__card p {
-      width: 150%;
-      text-align: center; }
-    .pie__main_premium .servicios__ad .servicio__ad__card img {
+    .pie__main_premium .servicios__ad .servicio__ad__card div p {
+      width: 150%; }
+    .pie__main_premium .servicios__ad .servicio__ad__card div img {
       align-items: center;
-      width: 111px; } }
+      width: 100px; } }
 
-@media screen and (max-width: 750px) {
-  .pie__main_premium .servicio__ad .servicio__ad__card {
-    width: 33.3%; }
-    .pie__main_premium .servicio__ad .servicio__ad__card div img {
-      width: 80px; } }
+@media screen and (max-width: 750px) and (max-width: 750px) {
+  .pagina__web__contenedor {
+    background-color: white; }
+    .pagina__web__contenedor .pagina__web__definition {
+      flex-direction: column;
+      align-items: center; }
+      .pagina__web__contenedor .pagina__web__definition div {
+        width: 100%;
+        text-align: center; }
+        .pagina__web__contenedor .pagina__web__definition div .img__icon {
+          width: 100%;
+          align-items: center; }
+          .pagina__web__contenedor .pagina__web__definition div .img__icon img {
+            width: 50px;
+            align-items: center; }
+        .pagina__web__contenedor .pagina__web__definition div h4 {
+          text-align: center;
+          text-decoration: underline; }
+        .pagina__web__contenedor .pagina__web__definition div p {
+          font-size: 12px;
+          align-items: center;
+          font-weight: 600; } }
 
-@media screen and (max-width: 750px) and (max-width: 800px) {
+@media screen and (max-width: 750px) and (max-width: 750px) and (max-width: 800px) {
   .abono {
     height: auto; }
     .abono .abono__mensual {
@@ -62,7 +78,7 @@
       .abono .abono__mensual div img {
         width: 80px; } }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) and (max-width: 500px) {
   .hero {
     height: auto; }
     .hero .text__1 h2 {
@@ -70,7 +86,7 @@
     .hero .text__2 p {
       font-size: 10px; } }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) and (max-width: 900px) {
   .hero {
     height: auto; }
     .hero .text__1 {
@@ -79,7 +95,7 @@
     .hero .text__2 {
       width: 90%; } }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) and (max-width: 900px) {
   .pagina__web__contenedor {
     flex-direction: column; }
     .pagina__web__contenedor .pagina__web__history {
@@ -95,12 +111,12 @@
       .pagina__web__contenedor .pagina__web__history .pagina__web__definition {
         margin-top: 25px; } }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 750px) and (max-width: 1100px) {
   .webs {
     flex-direction: column;
     align-items: center; } }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 750px) and (max-width: 400px) {
   .web1 {
     transform: scale(0.7); }
   .web2 {
@@ -108,17 +124,17 @@
   .web3 {
     transform: scale(0.7); } }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 750px) and (max-width: 880px) {
   .navegador {
     flex-direction: column;
     align-items: center; } }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 750px) and (max-width: 750px) {
   .servicios__ad {
     flex-direction: column;
     align-items: center; } }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 750px) and (max-width: 992px) {
   .grid__generico {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -187,20 +203,36 @@ body {
   .pie__main_premium .servicios__ad {
     display: flex;
     flex-direction: column; }
-    .pie__main_premium .servicios__ad .servicio__ad__card p {
-      width: 150%;
-      text-align: center; }
-    .pie__main_premium .servicios__ad .servicio__ad__card img {
+    .pie__main_premium .servicios__ad .servicio__ad__card div p {
+      width: 150%; }
+    .pie__main_premium .servicios__ad .servicio__ad__card div img {
       align-items: center;
-      width: 111px; } }
+      width: 100px; } }
 
-@media screen and (max-width: 750px) {
-  .pie__main_premium .servicio__ad .servicio__ad__card {
-    width: 33.3%; }
-    .pie__main_premium .servicio__ad .servicio__ad__card div img {
-      width: 80px; } }
+@media screen and (max-width: 750px) and (max-width: 750px) {
+  .pagina__web__contenedor {
+    background-color: white; }
+    .pagina__web__contenedor .pagina__web__definition {
+      flex-direction: column;
+      align-items: center; }
+      .pagina__web__contenedor .pagina__web__definition div {
+        width: 100%;
+        text-align: center; }
+        .pagina__web__contenedor .pagina__web__definition div .img__icon {
+          width: 100%;
+          align-items: center; }
+          .pagina__web__contenedor .pagina__web__definition div .img__icon img {
+            width: 50px;
+            align-items: center; }
+        .pagina__web__contenedor .pagina__web__definition div h4 {
+          text-align: center;
+          text-decoration: underline; }
+        .pagina__web__contenedor .pagina__web__definition div p {
+          font-size: 12px;
+          align-items: center;
+          font-weight: 600; } }
 
-@media screen and (max-width: 750px) and (max-width: 800px) {
+@media screen and (max-width: 750px) and (max-width: 750px) and (max-width: 800px) {
   .abono {
     height: auto; }
     .abono .abono__mensual {
@@ -210,7 +242,7 @@ body {
       .abono .abono__mensual div img {
         width: 80px; } }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) and (max-width: 500px) {
   .hero {
     height: auto; }
     .hero .text__1 h2 {
@@ -218,7 +250,7 @@ body {
     .hero .text__2 p {
       font-size: 10px; } }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) and (max-width: 900px) {
   .hero {
     height: auto; }
     .hero .text__1 {
@@ -227,7 +259,7 @@ body {
     .hero .text__2 {
       width: 90%; } }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) and (max-width: 900px) {
   .pagina__web__contenedor {
     flex-direction: column; }
     .pagina__web__contenedor .pagina__web__history {
@@ -243,12 +275,12 @@ body {
       .pagina__web__contenedor .pagina__web__history .pagina__web__definition {
         margin-top: 25px; } }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 750px) and (max-width: 1100px) {
   .webs {
     flex-direction: column;
     align-items: center; } }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 750px) and (max-width: 400px) {
   .web1 {
     transform: scale(0.7); }
   .web2 {
@@ -256,17 +288,17 @@ body {
   .web3 {
     transform: scale(0.7); } }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 750px) and (max-width: 880px) {
   .navegador {
     flex-direction: column;
     align-items: center; } }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 750px) and (max-width: 750px) {
   .servicios__ad {
     flex-direction: column;
     align-items: center; } }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 750px) and (max-width: 992px) {
   .grid__generico {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -525,20 +557,36 @@ body {
   .pie__main_premium .servicios__ad {
     display: flex;
     flex-direction: column; }
-    .pie__main_premium .servicios__ad .servicio__ad__card p {
-      width: 150%;
-      text-align: center; }
-    .pie__main_premium .servicios__ad .servicio__ad__card img {
+    .pie__main_premium .servicios__ad .servicio__ad__card div p {
+      width: 150%; }
+    .pie__main_premium .servicios__ad .servicio__ad__card div img {
       align-items: center;
-      width: 111px; } }
+      width: 100px; } }
 
-@media screen and (max-width: 750px) {
-  .pie__main_premium .servicio__ad .servicio__ad__card {
-    width: 33.3%; }
-    .pie__main_premium .servicio__ad .servicio__ad__card div img {
-      width: 80px; } }
+@media screen and (max-width: 750px) and (max-width: 750px) {
+  .pagina__web__contenedor {
+    background-color: white; }
+    .pagina__web__contenedor .pagina__web__definition {
+      flex-direction: column;
+      align-items: center; }
+      .pagina__web__contenedor .pagina__web__definition div {
+        width: 100%;
+        text-align: center; }
+        .pagina__web__contenedor .pagina__web__definition div .img__icon {
+          width: 100%;
+          align-items: center; }
+          .pagina__web__contenedor .pagina__web__definition div .img__icon img {
+            width: 50px;
+            align-items: center; }
+        .pagina__web__contenedor .pagina__web__definition div h4 {
+          text-align: center;
+          text-decoration: underline; }
+        .pagina__web__contenedor .pagina__web__definition div p {
+          font-size: 12px;
+          align-items: center;
+          font-weight: 600; } }
 
-@media screen and (max-width: 750px) and (max-width: 800px) {
+@media screen and (max-width: 750px) and (max-width: 750px) and (max-width: 800px) {
   .abono {
     height: auto; }
     .abono .abono__mensual {
@@ -548,7 +596,7 @@ body {
       .abono .abono__mensual div img {
         width: 80px; } }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) and (max-width: 500px) {
   .hero {
     height: auto; }
     .hero .text__1 h2 {
@@ -556,7 +604,7 @@ body {
     .hero .text__2 p {
       font-size: 10px; } }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) and (max-width: 900px) {
   .hero {
     height: auto; }
     .hero .text__1 {
@@ -565,7 +613,7 @@ body {
     .hero .text__2 {
       width: 90%; } }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 750px) and (max-width: 900px) {
   .pagina__web__contenedor {
     flex-direction: column; }
     .pagina__web__contenedor .pagina__web__history {
@@ -581,12 +629,12 @@ body {
       .pagina__web__contenedor .pagina__web__history .pagina__web__definition {
         margin-top: 25px; } }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 750px) and (max-width: 1100px) {
   .webs {
     flex-direction: column;
     align-items: center; } }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 750px) and (max-width: 400px) {
   .web1 {
     transform: scale(0.7); }
   .web2 {
@@ -594,17 +642,17 @@ body {
   .web3 {
     transform: scale(0.7); } }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 750px) and (max-width: 880px) {
   .navegador {
     flex-direction: column;
     align-items: center; } }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 750px) and (max-width: 750px) {
   .servicios__ad {
     flex-direction: column;
     align-items: center; } }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 750px) and (max-width: 992px) {
   .grid__generico {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

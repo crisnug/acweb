@@ -42,22 +42,34 @@
 /*--------Responsive----*/
 @media screen and (max-width:750px) {
     .pie__main_premium {
-        
+        section {
+            
+            p {
+                
+                
+                }
+            h4 {
+                
+                
+            }
+        }
         .servicios__ad {
             display: flex;
             flex-direction: column;
             
             
             .servicio__ad__card {
-                
-                
+            div {
+                    
+                    h5{
+                        
+                    }
                     p {                  
                         width: 150%;
-                        text-align: center;
                     }
                     img {
                         align-items: center;
-                        width: 111px;
+                        width: 100px;
                     }
                 }
             }
@@ -67,25 +79,42 @@
 
 
 @media screen and (max-width:750px) {
-    .pie__main_premium {
-
-        .servicio__ad {
-            
-            
-
-            .servicio__ad__card {
+    .pagina__web__contenedor {   
+        
+        
+        background-color: white;    
+        .pagina__web__definition { 
+                    
+            flex-direction: column;
+            align-items: center;    
+            div {
                 
-                width: 33.3%;
-                div {
-
-                    img {
-                        width: 80px;
-
+                
+                width: 100%;
+                
+                text-align: center;
+                    .img__icon{
+                        width: 100%;
+                        align-items: center;
+                        img{
+                            width: 50px;
+                            align-items: center;
+                        }                   
                     }
+                    h4{
+                        text-align: center;
+                        text-decoration: underline;
+                        
+                    }
+                    p {
+                    font-size: 12px;
+                    align-items: center;
+                    font-weight: 600;
+                }              
                 }
             }
+    
         }
-    }
 
     @media screen and (max-width:800px) {
         .abono {
@@ -178,8 +207,8 @@
 
             }
 
-            .pagina__web__definition {
-                margin-top: 25px;
+        .pagina__web__definition {
+            margin-top: 25px;
 
             }
         }
@@ -233,4 +262,5 @@
         grid-template-areas:
             "header header""nav nav""main main""footer footer";
     }
+}
 }
