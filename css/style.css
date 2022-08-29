@@ -35,15 +35,24 @@
 /*------Variables--------*/
 /*------Media-Query------*/
 /*--------Responsive----*/
-@media screen and (max-width: 800px) {
-  .pie__main_premium {
+@media screen and (max-width: 750px) {
+  .pie__main_premium .servicios__ad {
+    display: flex;
     flex-direction: column; }
-    .pie__main_premium .servicio__ad .servicio__ad__card {
-      width: 33.3%; }
-      .pie__main_premium .servicio__ad .servicio__ad__card div img {
-        width: 80px; } }
+    .pie__main_premium .servicios__ad .servicio__ad__card p {
+      width: 150%;
+      text-align: center; }
+    .pie__main_premium .servicios__ad .servicio__ad__card img {
+      align-items: center;
+      width: 100px; } }
 
-@media screen and (max-width: 800px) and (max-width: 800px) {
+@media screen and (max-width: 750px) {
+  .pie__main_premium .servicio__ad .servicio__ad__card {
+    width: 33.3%; }
+    .pie__main_premium .servicio__ad .servicio__ad__card div img {
+      width: 80px; } }
+
+@media screen and (max-width: 750px) and (max-width: 800px) {
   .abono {
     height: auto; }
     .abono .abono__mensual {
@@ -104,7 +113,7 @@
     flex-direction: column;
     align-items: center; } }
 
-@media screen and (max-width: 1035px) {
+@media screen and (max-width: 750px) {
   .servicios__ad {
     flex-direction: column;
     align-items: center; } }
@@ -174,15 +183,24 @@ body {
 /*------Variables--------*/
 /*------Media-Query------*/
 /*--------Responsive----*/
-@media screen and (max-width: 800px) {
-  .pie__main_premium {
+@media screen and (max-width: 750px) {
+  .pie__main_premium .servicios__ad {
+    display: flex;
     flex-direction: column; }
-    .pie__main_premium .servicio__ad .servicio__ad__card {
-      width: 33.3%; }
-      .pie__main_premium .servicio__ad .servicio__ad__card div img {
-        width: 80px; } }
+    .pie__main_premium .servicios__ad .servicio__ad__card p {
+      width: 150%;
+      text-align: center; }
+    .pie__main_premium .servicios__ad .servicio__ad__card img {
+      align-items: center;
+      width: 100px; } }
 
-@media screen and (max-width: 800px) and (max-width: 800px) {
+@media screen and (max-width: 750px) {
+  .pie__main_premium .servicio__ad .servicio__ad__card {
+    width: 33.3%; }
+    .pie__main_premium .servicio__ad .servicio__ad__card div img {
+      width: 80px; } }
+
+@media screen and (max-width: 750px) and (max-width: 800px) {
   .abono {
     height: auto; }
     .abono .abono__mensual {
@@ -243,7 +261,7 @@ body {
     flex-direction: column;
     align-items: center; } }
 
-@media screen and (max-width: 1035px) {
+@media screen and (max-width: 750px) {
   .servicios__ad {
     flex-direction: column;
     align-items: center; } }
@@ -268,7 +286,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  height: 450px;
+  height: 370px;
   display: flex;
   flex-direction: column;
   justify-content: center; }
@@ -288,32 +306,29 @@ body {
     margin-left: 15px; }
 
 .pagina__web__contenedor {
-  display: flex;
   height: auto;
   background-color: white; }
-  .pagina__web__contenedor .pagina__web__history {
-    width: 1fr; }
-    .pagina__web__contenedor .pagina__web__history div p {
-      font-size: 25px; }
-    .pagina__web__contenedor .pagina__web__history div h3 {
-      font-size: 25px; }
-    .pagina__web__contenedor .pagina__web__history div h4 {
-      font-size: 25px; }
   .pagina__web__contenedor .pagina__web__definition {
-    width: 1fr;
-    display: flex; }
+    display: flex;
+    padding-top: 15px; }
     .pagina__web__contenedor .pagina__web__definition div {
-      width: auto; }
-      .pagina__web__contenedor .pagina__web__definition div p {
-        font-size: 15px;
-        margin-right: 20px; }
-      .pagina__web__contenedor .pagina__web__definition div div {
-        display: flex;
-        flex-direction: row;
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+      height: fit-content; }
+      .pagina__web__contenedor .pagina__web__definition div .img__icon {
+        width: 100%;
         align-items: center; }
-        .pagina__web__contenedor .pagina__web__definition div div img {
-          width: 25px;
-          height: 25px; }
+        .pagina__web__contenedor .pagina__web__definition div .img__icon img {
+          width: 50px;
+          align-items: center; }
+      .pagina__web__contenedor .pagina__web__definition div h4 {
+        text-align: center;
+        text-decoration: underline; }
+      .pagina__web__contenedor .pagina__web__definition div p {
+        font-size: 12px;
+        align-items: center;
+        padding: 0 12px 0 10px; }
 
 .web__necesitas {
   color: black;
@@ -506,15 +521,24 @@ body {
 /*------Variables--------*/
 /*------Media-Query------*/
 /*--------Responsive----*/
-@media screen and (max-width: 800px) {
-  .pie__main_premium {
+@media screen and (max-width: 750px) {
+  .pie__main_premium .servicios__ad {
+    display: flex;
     flex-direction: column; }
-    .pie__main_premium .servicio__ad .servicio__ad__card {
-      width: 33.3%; }
-      .pie__main_premium .servicio__ad .servicio__ad__card div img {
-        width: 80px; } }
+    .pie__main_premium .servicios__ad .servicio__ad__card p {
+      width: 150%;
+      text-align: center; }
+    .pie__main_premium .servicios__ad .servicio__ad__card img {
+      align-items: center;
+      width: 100px; } }
 
-@media screen and (max-width: 800px) and (max-width: 800px) {
+@media screen and (max-width: 750px) {
+  .pie__main_premium .servicio__ad .servicio__ad__card {
+    width: 33.3%; }
+    .pie__main_premium .servicio__ad .servicio__ad__card div img {
+      width: 80px; } }
+
+@media screen and (max-width: 750px) and (max-width: 800px) {
   .abono {
     height: auto; }
     .abono .abono__mensual {
@@ -575,7 +599,7 @@ body {
     flex-direction: column;
     align-items: center; } }
 
-@media screen and (max-width: 1035px) {
+@media screen and (max-width: 750px) {
   .servicios__ad {
     flex-direction: column;
     align-items: center; } }
@@ -586,3 +610,10 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto auto auto;
     grid-template-areas: "header header" "nav nav" "main main" "footer footer"; } }
+
+.collapse:not(.show) {
+  display: none; }
+
+.collapsing {
+  height: 0;
+  overflow: hidden; }

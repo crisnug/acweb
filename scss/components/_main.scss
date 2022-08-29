@@ -8,7 +8,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    height: 450px;
+    height: 370px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,47 +29,46 @@
         margin-left: 15px;
     }
 }
-.pagina__web__contenedor {
-    display: flex;
-    height: auto;
-    background-color: white;
-    .pagina__web__history {
-        width: 1fr;
-        div {
-            p {
-                font-size: 25px;
-            }
-            h3 {
-                font-size: 25px;
-            }
-            h4 {
-                font-size: 25px;
-            }
-        }
-    }
-
-    .pagina__web__definition {
-        width: 1fr;
-        display: flex;
-        div {
-            width: auto;
-            p {
-                font-size: 15px;
-                margin-right: 20px;
-            }
-            div {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                img {
-                    width: 25px;
-                    height: 25px;
-                }
-            }
-        }
-
-    }
+.img__icon{
+    
+    
+    
 }
+.pagina__web__contenedor {   
+    height: auto;
+    
+    background-color: white;    
+    .pagina__web__definition { 
+        display: flex;        
+        padding-top: 15px;        
+        div {
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            height: fit-content;
+                .img__icon{
+                    width: 100%;
+                    align-items: center;
+                    img{
+                        width: 50px;
+                        align-items: center;
+                    }                   
+                }
+                h4{
+                    text-align: center;
+                    text-decoration: underline;
+                    
+                }
+                p {
+                font-size: 12px;
+                align-items: center;
+                padding: 0 12px 0 10px;
+            }              
+            }
+        }
+
+    }
+
 .web__necesitas {
     color: $color-fuentes;
     text-align: center;
