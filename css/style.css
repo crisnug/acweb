@@ -143,21 +143,24 @@
 
 body {
   width: 100%;
+  max-width: 100%;
   height: 80vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
-.encabezado .div__title .acweb {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-  color: black;
-  font-size: 80px;
-  margin-bottom: 5px; }
-
-.encabezado .div__title .desa__web {
-  color: black;
-  text-align: left;
-  text-decoration: underline;
-  font-size: 15px; }
+.encabezado .div__title .div__title__box {
+  height: auto; }
+  .encabezado .div__title .div__title__box .acweb {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 80px;
+    margin-bottom: -20px; }
+  .encabezado .div__title .div__title__box .desa__web {
+    color: black;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px;
+    margin-bottom: 18px; }
 
 /*---------Navegador--------*/
 .navegador {
@@ -321,19 +324,20 @@ body {
   height: 370px;
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
   .hero .text__1 {
     color: white;
-    width: 50%;
     font-style: italic;
-    font-size: 30px;
+    font-size: 50px;
+    text-decoration: underline;
     font-weight: 900;
     margin-left: 15px;
     margin-bottom: 25px; }
   .hero .text__2 {
     width: 50%;
     color: white;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     margin-left: 15px; }
 
@@ -366,6 +370,7 @@ body {
   color: black;
   text-align: center;
   font-size: 35px;
+  text-decoration: underline;
   border-radius: 20px;
   margin-top: 25px;
   margin-bottom: 25px; }
@@ -420,11 +425,19 @@ body {
     margin-bottom: 20px; }
   .paginas__planes img {
     width: 30px; }
-  .paginas__planes .planes section {
-    display: flex; }
-    .paginas__planes .planes section .planes section div h3 {
-      font-size: 30px;
-      text-align: left; }
+  .paginas__planes .plan__2 {
+    text-align: center; }
+  .paginas__planes .planes {
+    text-align: center; }
+    .paginas__planes .planes section {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 25px; }
+      .paginas__planes .planes section div h3 {
+        text-align: center;
+        font-size: 30px;
+        text-align: left; }
 
 /*------Servicios-Extras----*/
 .pie__main_premium {
@@ -659,10 +672,3 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto auto auto;
     grid-template-areas: "header header" "nav nav" "main main" "footer footer"; } }
-
-.collapse:not(.show) {
-  display: none; }
-
-.collapsing {
-  height: 0;
-  overflow: hidden; }
