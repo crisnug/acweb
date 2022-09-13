@@ -414,7 +414,8 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: auto; }
+    justify-content: center;
+    height: 250px; }
     .paginas__planes .diseño__web h1 {
       text-decoration: underline; }
   .paginas__planes img {
@@ -438,14 +439,11 @@ body {
   height: auto; }
   .pie__main_premium section {
     width: 100%; }
-    .pie__main_premium section p {
-      text-align: center;
-      text-decoration: underline;
-      font-weight: bold;
-      font-size: 20px; }
     .pie__main_premium section h4 {
       text-align: center;
-      text-decoration: underline; }
+      text-decoration: underline;
+      margin-top: 25px;
+      height: 100px; }
   .pie__main_premium .servicios__ad {
     display: flex;
     flex-direction: row; }
