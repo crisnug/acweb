@@ -328,14 +328,13 @@ body {
   align-items: center; }
   .hero .text__1 {
     color: white;
-    font-style: italic;
-    font-size: 50px;
+    font-family: monospace;
+    font-size: 100px;
     text-decoration: underline;
-    font-weight: 900;
-    margin-left: 15px;
-    margin-bottom: 25px; }
+    font-weight: 900; }
   .hero .text__2 {
-    width: 50%;
+    text-align: center;
+    width: 80%;
     color: white;
     font-weight: 700;
     font-size: 20px;
@@ -344,6 +343,8 @@ body {
 .pagina__web__contenedor {
   height: auto;
   background-color: white; }
+  .pagina__web__contenedor .pagina__web__definition2 {
+    background-color: lightgray; }
   .pagina__web__contenedor .pagina__web__definition {
     display: flex;
     padding-top: 15px; }
@@ -405,35 +406,28 @@ body {
     margin-left: 5px; }
 
 /*-----------Main-Planes------*/
-.informacion {
-  display: flex;
-  justify-content: space-around; }
-  .informacion div {
-    width: 150px;
-    height: 70px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    border-radius: 25px;
-    margin-top: 100px;
-    margin-bottom: 50px; }
-
 .paginas__planes {
   text-decoration: none; }
   .paginas__planes .diseño__web {
     text-align: center;
-    margin-bottom: 20px; }
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: auto; }
+    .paginas__planes .diseño__web h1 {
+      text-decoration: underline; }
   .paginas__planes img {
     width: 30px; }
-  .paginas__planes .plan__2 {
-    text-align: center; }
   .paginas__planes .planes {
+    background-color: white;
     text-align: center; }
+    .paginas__planes .planes h2 {
+      text-decoration: underline; }
     .paginas__planes .planes section {
       text-align: center;
       display: flex;
-      justify-content: center;
-      margin-bottom: 25px; }
+      justify-content: center; }
       .paginas__planes .planes section div h3 {
         text-align: center;
         font-size: 30px;
@@ -499,15 +493,6 @@ body {
         .abono .abono__mensual .abono__mensual__card div img {
           width: 100px; }
 
-/*---------------------------------*/
-/*------Main-Marketing------*/
-.marketing {
-  height: 1100px; }
-  .marketing .carousel-inner {
-    width: auto;
-    height: 300px; }
-
-/*---------------------------------*/
 /*----------Main-Nosotros--*/
 .contenedor-nosotros {
   height: 800px; }
